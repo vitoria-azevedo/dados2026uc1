@@ -3,9 +3,12 @@
 idade = int(input("qual a sua idade? "))
 
 if idade >= 18: 
-    print(("você é maior de idade"))
+    print("você é maior de idade")
+    print("pode tirar a carteira de motorista")
 else: 
     print("você é menor de idade.")
-
-print ("Fim do programa")
+    faltam= 18 - idade
+    print(f"faltam {faltam} anos(s) para completar 18 anos.")
+   
+print("fim do programa.")
 
